@@ -2,6 +2,7 @@ import ContactSection from "@/components/ContactSection/ContactSection";
 import Features from "@/components/Features/Features";
 import Hero from "@/components/Hero/Hero";
 import Layouts from "@/components/Layouts/Layouts";
+import Projects from "@/components/Projects/Projects";
 import TheApp from "@/components/TheApp/TheApp";
 import Head from "next/head";
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero />
         <TheApp />
         <Features />
+        <Projects />
         <ContactSection />
       </Layouts>
     </>

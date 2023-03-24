@@ -11,7 +11,7 @@ export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className="fixed right-0 left-0 m-auto rounded-bl-3xl rounded-br-3xl max-w-full z-10 top-0 backdrop-blur-2xl shadow-lg ">
+        <header className="fixed right-0 left-0 m-auto rounded-bl-3xl rounded-br-3xl max-w-full top-0 backdrop-blur-2xl z-50 shadow-lg ">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <motion.div
                     initial="hidden"
@@ -42,10 +42,13 @@ export default function Header() {
                         <AnimatedTextCharacterParagraph text={"Home"} />
                     </a>
                     <a href="#app" className="text-sm font-semibold leading-6 text-gray-900">
-                        <AnimatedTextCharacterParagraph text={"The App"} />
+                        <AnimatedTextCharacterParagraph text={"Info"} />
                     </a>
                     <a href="#features" className="text-sm font-semibold leading-6 text-gray-900">
                         <AnimatedTextCharacterParagraph text={"Features"} />
+                    </a>
+                    <a href="#projects" className="text-sm font-semibold leading-6 text-gray-900">
+                        <AnimatedTextCharacterParagraph text={"Projects"} />
                     </a>
                     <a href="#contact" className="text-sm font-semibold leading-6 text-gray-900">
                         <AnimatedTextCharacterParagraph text={"Contact"} />
