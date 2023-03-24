@@ -83,6 +83,9 @@ export default function Header() {
                                 <a href="#features" onClick={() => setMobileMenuOpen(false)} className="flex py-3 text-sm font-semibold leading-6 text-gray-900">
                                     Features
                                 </a>
+                                <a href="#projects" onClick={() => setMobileMenuOpen(false)} className="flex py-3 text-sm font-semibold leading-6 text-gray-900">
+                                    Projects
+                                </a>
                                 <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="flex py-3 text-sm font-semibold leading-6 text-gray-900">
                                     Contact
                                 </a>
