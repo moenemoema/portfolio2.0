@@ -17,7 +17,7 @@ const Hero = () => {
                             <h2 className="my-4 text2xl md:text-5xl font-normal leading-tight text-center md:text-left slide-in-bottom-h1">
                                 <AnimatedTextCharacter text={"Frontend Developer"} />
                             </h2>
-                            <h4 className='leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle'>
+                            <h4 className='leading-normal text-gray-600 text-lg  mb-8 text-center md:text-left slide-in-bottom-subtitle'>
                                 <AnimatedTextCharacterParagraph text={"Frontend Developer, performance-oriented, interested in meeting all web needs, as well as with a good experience with the interface and passion for responsive website design and firmly convinced of the approach focused on mobile devices. Assistance in the development and testing of web applications. Constantly recognized forreliability and multitasking."} />
                             </h4>
                             <h4 className="text-blue-400 font-bold pb-8 lg:pb-6 text-center md:text-left fade-in">

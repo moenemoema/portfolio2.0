@@ -12,7 +12,7 @@ const Footer = () => {
                             <AnimatedLast text={"Fucking Slave "} />
                         </h3>
                         <h4>
-                            <AnimatedLast text={"Lorem ipsum, dolor sit amet consectetur adipisicing elit."} />
+                            <AnimatedLast text={"Lorem ipsum, fucking slave."} />
                         </h4>
                         <motion.div
                             initial="hidden"
