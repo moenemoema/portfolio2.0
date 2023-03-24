@@ -3,7 +3,7 @@ import Features from "@/components/Features/Features";
 import Hero from "@/components/Hero/Hero";
 import Layouts from "@/components/Layouts/Layouts";
 import Projects from "@/components/Projects/Projects";
-import TheApp from "@/components/TheApp/TheApp";
+import Info from "@/components/Info/Info";
 import Head from "next/head";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <Layouts>
         <Hero />
-        <TheApp />
+        <Info />
         <Features />
         <Projects />
         <ContactSection />

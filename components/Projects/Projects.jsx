@@ -46,10 +46,10 @@ const Projects = () => {
     ]
     return (
         <>
-            <div id='projects' className="leading-normal tracking-normal text-gray-900 h-96">
+            <div id='projects' className="leading-normal tracking-normal text-gray-900 pt-36">
                 <div>
                     <h1 className="flex justify-center my-4 text2xl md:text-4xl font-bold leading-tight text-center md:text-left slide-in-bottom-h1 pb-12">Projects</h1>
-                    <div className='container m-auto'>
+                    <div className='container m-auto pb-48'>
                         <Swiper
                             slidesPerView={3}
                             spaceBetween={30}
@@ -59,13 +59,13 @@ const Projects = () => {
                             }}
                             modules={[FreeMode, Pagination, Autoplay]}
                             autoplay={{
-                                delay: 1500,
+                                delay: 2000,
                             }}
                             className="mySwiper"
                         >
                             {projects.map((project) => (
                                 <SwiperSlide>
-                                    <div className="flex justify-between h-56 bg-purple-600 rounded-2xl p-5 items-center">
+                                    <div className="flex justify-between h-96 bg-white border-2 rounded-2xl p-5 items-center shadow-xl">
                                         <div>
                                             <img src={project.img} alt="" />
                                         </div>

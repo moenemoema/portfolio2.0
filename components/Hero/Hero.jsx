@@ -18,7 +18,7 @@ const Hero = () => {
                                 <AnimatedTextCharacter text={"Frontend Developer"} />
                             </h2>
                             <h4 className='leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle'>
-                                <AnimatedTextCharacterParagraph text={"A self-taught UI/UX designer, functioning in the industry for 3+ years now.I make meaningful and delightful digital products that create an equilibrium between user needs and business goals."} />
+                                <AnimatedTextCharacterParagraph text={"Frontend Developer, performance-oriented, interested in meeting all web needs, as well as with a good experience with the interface and passion for responsive website design and firmly convinced of the approach focused on mobile devices. Assistance in the development and testing of web applications. Constantly recognized forreliability and multitasking."} />
                             </h4>
                             <h4 className="text-blue-400 font-bold pb-8 lg:pb-6 text-center md:text-left fade-in">
                                 <AnimatedTextCharacterParagraph text={"Download Resume:"} />
