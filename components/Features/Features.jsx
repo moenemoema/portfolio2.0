@@ -70,7 +70,7 @@ export default function Features() {
                     <motion.img
                         initial="hidden"
                         whileInView="visible"
-                        transition={{ duration: 0.4 }}
+                        transition={{ duration: 0.5 }}
                         variants={{
                             visible: { opacity: 1, scale: 1, x: 0 },
                             hidden: { opacity: 0, scale: 0 },

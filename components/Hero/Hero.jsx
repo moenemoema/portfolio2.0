@@ -25,7 +25,7 @@ const Hero = () => {
                             </h4>
                             <div className="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
                                 <motion.button
-                                    className="bg-purple-600 p-2 z-40 rounded-lg border-none text-white font-bold cursor-pointer"
+                                    className="bg-purple-600 p-2 z-10 rounded-lg border-none text-white font-bold cursor-pointer"
                                     type="button"
                                     initial="hidden"
                                     whileInView="visible"
