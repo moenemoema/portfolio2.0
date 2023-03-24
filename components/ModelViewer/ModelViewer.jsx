@@ -49,7 +49,7 @@ export function Scene(props) {
     return (
         <group
             ref={mesh}
-            rotation={[0, -0.5, 0]}
+            rotation={[0, 0.3, 0]}
             position={[0, -3, 0]}
             {...props}
             dispose={null}

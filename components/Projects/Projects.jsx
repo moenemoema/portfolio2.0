@@ -51,7 +51,10 @@ const Projects = () => {
                     <h1 className="flex justify-center my-4 text2xl md:text-4xl font-bold leading-tight text-center md:text-left slide-in-bottom-h1 pb-12">Projects</h1>
                     <div className='container m-auto pb-48'>
                         <Swiper
-                            slidesPerView={3}
+                            slidesPerView={"auto"}
+                            breakpoints={{
+                                slidesPerView: 2
+                            }}
                             spaceBetween={30}
                             freeMode={true}
                             pagination={{
@@ -64,15 +67,19 @@ const Projects = () => {
                             className="mySwiper"
                         >
                             {projects.map((project) => (
-                                <SwiperSlide>
-                                    <div className="flex justify-between h-96 bg-white border-2 rounded-2xl p-5 items-center shadow-xl">
+                                <SwiperSlide
+                                    style={{
+                                        width: "320px",
+                                    }}
+                                >
+                                    <div className="flex flex-col justify-center gap-16 h-96 bg-white border-2 rounded-2xl p-5 items-center shadow-xl">
                                         <div>
-                                            <img src={project.img} alt="" />
+                                            <img className="w-28 h-28" src={project.img} alt="" />
                                         </div>
                                         <div className="mr-8">
                                             <h1>{project.tag}</h1>
                                             <p>{project.info}</p>
-                                            <button>learn more</button>
+                                            <button className="bg-purple-600 p-1 px-2 rounded-lg text-white font-bold uppercase">learn more</button>
                                         </div>
                                     </div>
                                 </SwiperSlide>
