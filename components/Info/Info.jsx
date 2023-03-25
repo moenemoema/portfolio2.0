@@ -4,8 +4,8 @@ import AnimatedTextCharacter from "../AnimatedText/AnimatedText"
 
 export default function Info() {
     return (
-        <div className="bg-white mt-96">
-            <div className="relative isolate px-6 pt-48 sm:pt-0 md:pt-10 max-[320px]:pt-96 lg:px-8">
+        <div className="bg-white mt-96 max-[767px]:pt-px max-[406px]:pt-40">
+            <div className="relative isolate px-6 pt-48 sm:pt-0 md:pt-10 max-[375px]:pt-96 max-[320px]:pt-96 lg:px-8">
                 <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
                     <svg
                         className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -31,7 +31,7 @@ export default function Info() {
                         </defs>
                     </svg>
                 </div>
-                <div id="info" className="mx-auto max-w-2xl mt-96 xl:mt-28 sm:py-96  ">
+                <div id="info" className="mx-auto max-w-2xl mt-96 xl:mt-28 sm:py-96">
                     <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                         <motion.div
                             initial="hidden"

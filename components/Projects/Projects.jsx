@@ -70,6 +70,13 @@ const Projects = () => {
                                 <SwiperSlide
                                     style={{
                                         width: "320px",
+                                        paddingLeft: '20px',
+                                        paddingRight: '20px'
+                                    }}
+                                    breakpoints={{
+                                        337: {
+                                            width: '300px'
+                                        }
                                     }}
                                 >
                                     <div className="flex flex-col justify-center gap-16 h-96 bg-white border-2 rounded-2xl p-5 items-center shadow-xl">
