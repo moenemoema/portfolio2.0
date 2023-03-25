@@ -9,39 +9,39 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            tag: 'Fdsfdsfds',
-            info: 'fdsfdsfdsfds',
+            tag: 'Project Name',
+            info: 'Lorem ipsum, huy blyat',
             img: '/picon1.png'
         },
         {
             id: 2,
-            tag: 'Fdsfdsfds',
-            info: 'fdsfdsfdsfds',
-            img: '/picon1.png'
+            tag: 'Project Name',
+            info: 'Lorem ipsum, huy blyat',
+            img: '/picon2.png'
         },
         {
             id: 3,
-            tag: 'Fdsfdsfds',
-            info: 'fdsfdsfdsfds',
-            img: '/picon1.png'
+            tag: 'Project Name',
+            info: 'Lorem ipsum, huy blyat',
+            img: '/picon3.png'
         },
         {
             id: 4,
-            tag: 'Fdsfdsfds',
-            info: 'fdsfdsfdsfds',
-            img: '/picon1.png'
+            tag: 'Project Name',
+            info: 'Lorem ipsum, huy blyat',
+            img: '/picon4.png'
         },
         {
             id: 5,
-            tag: 'Fdsfdsfds',
-            info: 'fdsfdsfdsfds',
+            tag: 'Project Name',
+            info: 'Lorem ipsum, huy blyat',
             img: '/picon1.png'
         },
         {
             id: 6,
-            tag: 'Fdsfdsfds',
-            info: 'fdsfdsfdsfds',
-            img: '/picon1.png'
+            tag: 'Project Name',
+            info: 'Lorem ipsum, huy blyat',
+            img: '/picon2.png'
         }
     ]
     return (
@@ -84,9 +84,9 @@ const Projects = () => {
                                             <img className="w-28 h-28" src={project.img} alt="" />
                                         </div>
                                         <div className="mr-8">
-                                            <h1>{project.tag}</h1>
-                                            <p>{project.info}</p>
-                                            <button className="bg-purple-600 p-1 px-2 rounded-lg text-white font-bold uppercase">learn more</button>
+                                            <h1 className="font-bold text-xl">{project.tag}</h1>
+                                            <p className="pb-3 text-gray-600">{project.info}</p>
+                                            <button className="bg-purple-600 p-1 px-2 rounded-lg text-white text-sm font-bold uppercase">learn more</button>
                                         </div>
                                     </div>
                                 </SwiperSlide>
