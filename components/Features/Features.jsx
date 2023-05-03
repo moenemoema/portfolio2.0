@@ -36,10 +36,10 @@ export default function Features() {
                                     visible: { opacity: 1, scale: 1, x: 0 },
                                     hidden: { opacity: 0, scale: 0 },
                                 }}
-                                className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</motion.h2>
+                                className="text-base font-semibold leading-7 text-indigo-600">About me</motion.h2>
                             <h1
                                 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                                A better workflow
+                                Skills
                             </h1>
                             <h4 className="mt-6 text-lg leading-8 text-gray-600">
                                 <AnimatedTextCharacterParagraph text={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,iste dolor cupiditate blanditiis ratione."} />
