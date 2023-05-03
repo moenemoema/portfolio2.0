@@ -49,14 +49,14 @@ const Projects = () => {
             <div id='projects' className="leading-normal tracking-normal text-gray-900 pt-36">
                 <div>
                     <h1 className="flex justify-center my-4 text2xl md:text-4xl font-bold leading-tight text-center md:text-left slide-in-bottom-h1 pb-12">Projects</h1>
-                    <div className='container m-auto pb-48'>
+                    <div className='container m-auto max-[425px]:w-full w-9/12 pb-48'>
                         <Swiper
                             slidesPerView={"auto"}
+                            loop={true}
                             breakpoints={{
                                 slidesPerView: 2
                             }}
                             spaceBetween={30}
-                            freeMode={true}
                             pagination={{
                                 clickable: true,
                             }}
@@ -71,7 +71,7 @@ const Projects = () => {
                                     style={{
                                         width: "320px",
                                         paddingLeft: '20px',
-                                        paddingRight: '20px'
+                                        paddingRight: '20px',
                                     }}
                                     breakpoints={{
                                         337: {
@@ -79,9 +79,9 @@ const Projects = () => {
                                         }
                                     }}
                                 >
-                                    <div className="flex flex-col justify-center gap-16 h-96 bg-white border-2 rounded-2xl p-5 items-center shadow-xl">
+                                    <div className="flex flex-col hover:scale-110 transition-transform justify-center gap-16 h-96 bg-white border-2 rounded-2xl p-5 items-center shadow-xl">
                                         <div>
-                                            <img className="w-28 h-28" src={project.img} alt="" />
+                                            <img className="w-28 h-28" src={project.img} alt="projects" />
                                         </div>
                                         <div className="mr-8">
                                             <h1 className="font-bold text-xl">{project.tag}</h1>

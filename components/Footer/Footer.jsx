@@ -11,9 +11,6 @@ const Footer = () => {
                         <h3 className="text-3xl mb-3">
                             <AnimatedLast text={"Fucking Slave "} />
                         </h3>
-                        <h4>
-                            <AnimatedLast text={"Lorem ipsum, fucking slave."} />
-                        </h4>
                         <motion.div
                             initial="hidden"
                             whileInView="visible"
@@ -23,10 +20,20 @@ const Footer = () => {
                                 hidden: { opacity: 0, scale: 0 },
                             }}
                             className="flex justify-center my-10">
+                            <motion.h4
+                                whileInView="visible"
+                                transition={{ duration: 0.5 }}
+                                variants={{
+                                    visible: { opacity: 1, scale: 1, x: 0 },
+                                    hidden: { opacity: 0, scale: 0 },
+                                }}
+                            >
+                                <img src="" alt="fdf" />
+                                <img src="" alt="fdfd" />
+                            </motion.h4>
                         </motion.div>
                     </div>
-                    <div className="mt-28 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
-                        <p className="order-2 md:order-1 mt-8 md:mt-0"> &copy; Fucking Slave, 2025 </p>
+                    <div className="mt-28 flex flex-col md:flex-row md:justify-center items-center text-sm text-gray-400">
                         <div className="order-1 md:order-2">
                             <a href="#" className='px-2'>Home</a>
                             <a href="#info" className='px-2 border-l'>Info</a>
