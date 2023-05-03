@@ -44,8 +44,8 @@ export default function Header() {
                     <a href="#info" className="text-sm font-semibold leading-6 text-gray-900">
                         <AnimatedTextCharacterParagraph text={"Info"} />
                     </a>
-                    <a href="#features" className="text-sm font-semibold leading-6 text-gray-900">
-                        <AnimatedTextCharacterParagraph text={"Features"} />
+                    <a href="#about" className="text-sm font-semibold leading-6 text-gray-900">
+                        <AnimatedTextCharacterParagraph text={"About"} />
                     </a>
                     <a href="#projects" className="text-sm font-semibold leading-6 text-gray-900">
                         <AnimatedTextCharacterParagraph text={"Projects"} />
@@ -80,8 +80,8 @@ export default function Header() {
                                 <a href="#info" onClick={() => setMobileMenuOpen(false)} className="flex py-3 text-sm font-semibold leading-6 text-gray-900">
                                     Info
                                 </a>
-                                <a href="#features" onClick={() => setMobileMenuOpen(false)} className="flex py-3 text-sm font-semibold leading-6 text-gray-900">
-                                    Features
+                                <a href="#about" onClick={() => setMobileMenuOpen(false)} className="flex py-3 text-sm font-semibold leading-6 text-gray-900">
+                                    About
                                 </a>
                                 <a href="#projects" onClick={() => setMobileMenuOpen(false)} className="flex py-3 text-sm font-semibold leading-6 text-gray-900">
                                     Projects
