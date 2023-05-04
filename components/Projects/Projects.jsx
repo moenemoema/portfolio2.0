@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Pagination, Autoplay } from "swiper";
+import { motion } from 'framer-motion'
 
 const Projects = () => {
     const projects = [
@@ -53,6 +54,9 @@ const Projects = () => {
                         <Swiper
                             slidesPerView={"auto"}
                             loop={true}
+                            speed={2500}
+                            grabCursor
+                            freeMode={true}
                             breakpoints={{
                                 slidesPerView: 2
                             }}
@@ -72,6 +76,10 @@ const Projects = () => {
                                         width: "320px",
                                         paddingLeft: '20px',
                                         paddingRight: '20px',
+                                    }}
+                                    navigation={{
+                                        nextEl: ".swiper-button-next",
+                                        prevEl: ".swiper-button-prev",
                                     }}
                                     breakpoints={{
                                         337: {

@@ -18,3 +18,13 @@
         padding: 0;
       }
   }
+
+
+  /* .swiper-pagination{
+
+  } */
+  .swiper-pagination-bullet{
+    background-color: rebeccapurple !important;
+    width: 10px !important;
+    height: 10px !important;
+  }

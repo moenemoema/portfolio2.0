@@ -4,19 +4,19 @@ import { motion } from 'framer-motion'
 
 const features = [
     {
-        name: 'Push to deploy.',
+        name: 'Frontend Developer Skills',
         description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+            'HTML, CSS, SASS, css/scss modules, JavaScript, TypeScript',
         icon: CloudArrowUpIcon,
     },
     {
-        name: 'SSL certificates.',
-        description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+        name: 'Frameworks/libraries',
+        description: ' Next, React, Redux, redux/toolkit, Bootstrap, Material UI, Ant Design, Framer Motion, Tailwind',
         icon: LockClosedIcon,
     },
     {
-        name: 'Database backups.',
-        description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+        name: 'Version control',
+        description: 'Git',
         icon: ServerIcon,
     },
 ]
@@ -42,7 +42,7 @@ export default function Features() {
                                 Skills
                             </h1>
                             <h4 className="mt-6 text-lg leading-8 text-gray-600">
-                                <AnimatedTextCharacterParagraph text={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,iste dolor cupiditate blanditiis ratione."} />
+                                <AnimatedTextCharacterParagraph text={"Frontend Developer, performance-oriented, interested in meeting all web needs, as well as with a good experience with the interface and passion for responsive website design and firmly convinced of the approach focused on mobile devices. Assistance in the development and testing of web applications. Constantly recognized for reliability and multitasking."} />
                             </h4>
                             <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                                 {features.map((feature) => (
